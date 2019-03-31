@@ -27,12 +27,6 @@
 
 ;;; Code:
 
-
-
-(provide 'hideshow-modeline)
-
-;;; hideshow-modeline.el ends here
-
 (defvar hs-mode-line-hist nil)
 (make-local-variable 'hs-mode-line-hist)
 
@@ -60,5 +54,6 @@ If you use this with C-u, call hs-mode-line-show."
     (if hs-mode-line-hist
         (hs-mode-line-show)
       (hs-mode-line-hide))))
+
 (provide 'hideshow-modeline)
 ;;; hideshow-modeline ends here
